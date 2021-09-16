@@ -58,25 +58,6 @@ const _abi = [
   {
     inputs: [
       {
-        internalType: "address",
-        name: "",
-        type: "address",
-      },
-    ],
-    name: "contractController",
-    outputs: [
-      {
-        internalType: "bool",
-        name: "",
-        type: "bool",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
         internalType: "uint16",
         name: "traitID",
         type: "uint16",
@@ -118,19 +99,6 @@ const _abi = [
     type: "function",
   },
   {
-    inputs: [],
-    name: "owner",
-    outputs: [
-      {
-        internalType: "address",
-        name: "",
-        type: "address",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
     inputs: [
       {
         internalType: "uint16",
@@ -149,29 +117,6 @@ const _abi = [
       },
     ],
     name: "setTrait",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "uint16",
-        name: "traitID",
-        type: "uint16",
-      },
-      {
-        internalType: "uint16[]",
-        name: "tokenID",
-        type: "uint16[]",
-      },
-      {
-        internalType: "bool[]",
-        name: "",
-        type: "bool[]",
-      },
-    ],
-    name: "setTraitOnTokens",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function",

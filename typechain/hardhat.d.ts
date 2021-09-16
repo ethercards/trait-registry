@@ -61,6 +61,18 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.IECRegistry__factory>;
     getContractFactory(
+      name: "EtherCardsForge",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.EtherCardsForge__factory>;
+    getContractFactory(
+      name: "IAccidentalCollaboration",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IAccidentalCollaboration__factory>;
+    getContractFactory(
+      name: "IECRegistry",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IECRegistry__factory>;
+    getContractFactory(
       name: "TraitUint8ArrayValueImplementer",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.TraitUint8ArrayValueImplementer__factory>;
