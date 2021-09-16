@@ -11,3 +11,9 @@
 - Zoom Batch Caller - https://etherscan.io/address/0x7cdF091AF6a9ED75E3192500d3e5BB0f63e22Dea
 
 
+### Frontend testnet utils
+- https://github.com/ethercards/ec-testnet/
+
+
+### Zoom Batch Caller - used in Frontend testnet
+- https://github.com/mickys/zoom-next
